@@ -2574,7 +2574,7 @@ input, select, textarea {
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 1);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2598,6 +2598,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			font-size: 26px;
 		}
 
 		#header strong, #header b {
@@ -2609,15 +2610,19 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			color: rgba(255, 255, 255, 0.9);
+			font-size: 1.75em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 
+		#header p {
+			color: rgba(255, 255, 255, 0.9);
+		}
+
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 5.25em;
 		}
 
 /* Footer */
@@ -2627,7 +2632,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.7);
 		}
 
 	#footer .copyright {
